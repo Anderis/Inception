@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#homescreen {
+  background-image: url('Images/pageBackground/Screens/Homescreen.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 1613px) {
+
+  #homepage {
+    background-image: url('Images/pageBackground/LaptopBackground.jpg');
+    background-size: 1920px 929px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .screenWrap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45.1%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    width: 1092px; /* Adjust based on desired aspect ratio */
+    height:587px
+  }
+  
+  #homescreen {
+    background-image: url('Images/pageBackground/Screens/Homescreen.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+}
+
+@media screen and (max-width: 1613px) {
+  #homepage {
+    background-image: url('Images/pageBackground/LaptopBackground.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .screenWrap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45.3%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    width: 924px; /* Adjust based on desired aspect ratio */
+    height: 580px; /* Adjust based on desired aspect ratio */
+  }
+  
+  #homescreen {
+    background-image: url('Images/pageBackground/Screens/Homescreen.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
